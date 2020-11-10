@@ -1,14 +1,14 @@
 const { MessageEmbed } = require("discord.js");
 
 module.exports = {
-  name: "musichelp",
+  name: "mhelp",
   aliases: ["mh"],
   description: "Display all commands and descriptions",
   execute(message) {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-      .setTitle("Kalibot Music Help")
+      .setTitle("Kalimusic Help")
       .setDescription("List of all commands")
       .setColor("#F8AA2A");
 
